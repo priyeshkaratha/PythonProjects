@@ -4,7 +4,6 @@ def split_and_join(line):
 
 def mutate_string(string, position, character):
     data = list(string)
-    print(data, position)
     data[position] = character
     return "".join(data)
 
